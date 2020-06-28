@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.amaz {
+  width: auto;
+  height: 100px;
+}
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  /* align-items: center; */
+  font-size: calc(10px + 2vmin);
+  color: black;
+  margin-top: 10px;
+}
+.App-link {
+  color: #61dafb;
+}
+.search {
+  height: 24px;
+  margin-left: 20px;
+  margin-right: 45px;
+  margin-top: 33px;
+  border-radius: 20px;
+  box-shadow: 3px 3px orange;
+  width: 400px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
